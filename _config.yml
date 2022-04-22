@@ -4,3 +4,4 @@ show_excerpts: true
 
 plugins:
   - jekyll-feed
+theme: jekyll-theme-cayman
