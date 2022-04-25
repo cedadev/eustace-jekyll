@@ -10,6 +10,7 @@ layout: base_eustace
 order: 0
 permalink: /about/
 title: About
+make_banner: true
 ---
 
 <h2>EUSTACE (EU Surface Temperature for All Corners of Earth) gives publicly available daily estimates of surface air temperature since 1850 across the globe for the first time by combining surface and satellite data using novel statistical techniques.</h2>

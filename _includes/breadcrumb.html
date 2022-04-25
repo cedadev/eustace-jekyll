@@ -1,6 +1,6 @@
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ page.title | default: site.title | default: site.github.repository_name }}</li>
-    </ol>
-</nav>
+<!-- <nav aria-label="breadcrumb"> -->
+    <ul class="breadcrumb pull-right">
+        <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li id="breadcrumb-menu-acronyms">{{ page.title | default: site.title }}</li>
+    </ul>
+<!-- </nav> -->

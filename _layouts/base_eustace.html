@@ -20,62 +20,14 @@
         })(window, document, 'script', 'dataLayer', 'GTM-NDG2XX7');</script>
     <!-- End Google Tag Manager -->
     {% endif %}
-
-
+    
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/4/flatly/bootstrap.css"
-        media="screen">
+    <!-- <link rel="stylesheet" href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/4/flatly/bootstrap.css" media="screen"> -->
     <!-- Custom CSS -->
     <!-- customisations of vanilla bootstrap by the bootswatch variant we're using (output from Bootswatch) -->
-    <link rel="stylesheet" href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/_assets/css/custom.min.css">
-
-    <!--
-    /**
-    * @license
-    * MyFonts Webfont Build ID 3596617, 2018-06-14T06:54:30-0400
-    * 
-    * The fonts listed in this notice are subject to the End User License
-    * Agreement(s) entered into by the website owner. All other parties are 
-    * explicitly restricted from using the Licensed Webfonts(s).
-    * 
-    * You may obtain a valid license at the URLs below.
-    * 
-    * Webfont: BoosterNextFY-Thin by Black Foundry
-    * URL: https://www.myfonts.com/fonts/black-foundry/booster-next-fy/thin/
-    * 
-    * Webfont: BoosterNextFY-Regular by Black Foundry
-    * URL: https://www.myfonts.com/fonts/black-foundry/booster-next-fy/regular/
-    * 
-    * Webfont: BoosterNextFY-Medium by Black Foundry
-    * URL: https://www.myfonts.com/fonts/black-foundry/booster-next-fy/medium/
-    * 
-    * Webfont: BoosterNextFY-Black by Black Foundry
-    * URL: https://www.myfonts.com/fonts/black-foundry/booster-next-fy/black/
-    * 
-    * Webfont: BoosterNextFY-Light by Black Foundry
-    * URL: https://www.myfonts.com/fonts/black-foundry/booster-next-fy/light/
-    * 
-    * Webfont: BoosterNextFY-Bold by Black Foundry
-    * URL: https://www.myfonts.com/fonts/black-foundry/booster-next-fy/bold/
-    * 
-    * 
-    * License: https://www.myfonts.com/viewlicense?type=web&buildid=3596617
-    * Licensed pageviews: 10,000
-    * Webfonts copyright: Copyright (c) 2013 by FONTYOU. All rights reserved.
-    * www.fontyou.com
-    * 
-    * © 2018 MyFonts Inc
-    */
-
-    -->
-    <link rel="stylesheet" type="text/css"
-        href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/_assets/css/MyFontsWebfontsKit.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/_assets/css/webfonts.css">
-
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/_assets/css/custom.min.css"> -->
 
     <!-- Google CSE Search stuff -->
     <script async src="https://cse.google.com/cse.js?cx=98d9bba52d1334b96"></script>
@@ -93,14 +45,12 @@
 
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
-
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/feeds/rss/">
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/blog/feeds/atom/">
 
-    <!-- <link href="/assets/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="/assets/css/mezzanine.css">
 
-    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="/assets/css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="/assets/css/prettyPhoto.css" rel="stylesheet">
     <link href="/assets/css/animate.css" rel="stylesheet">
     <link href="/assets/css/main.css" rel="stylesheet">
@@ -116,6 +66,10 @@
 
     <div id="root">
         {% include navbar.html %}
+
+        {% unless page.skip_banner %}
+        {% include banner.html %}
+        {% endunless %}
         
         <!--footer-->
         <div class="container">
@@ -124,7 +78,6 @@
 
         <section id="bottom" class="wet-asphalt">
             <div class="container">
-                <div class="row">
                     <div class="col-md-2 col-sm-4">
                         <a href="/">
                             <h4>Home</h4>
@@ -154,7 +107,6 @@
                             <h4>Contact</h4>
                         </a>
                     </div>
-                </div>
                 <!--/.col-md-3-->
             </div>
         </section>
