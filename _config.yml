@@ -11,4 +11,3 @@ defaults:
 
 plugins:
   - jekyll-feed
-theme: jekyll-theme-cayman
