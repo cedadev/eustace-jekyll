@@ -21,7 +21,7 @@
     <!-- End Google Tag Manager -->
     {% endif %}
     
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Bootstrap Core CSS -->
     <!-- <link rel="stylesheet" href="https://artefacts.ceda.ac.uk/themes/orgtheme_jasmin/0.5/4/flatly/bootstrap.css" media="screen"> -->
@@ -32,9 +32,9 @@
     <!-- Google CSE Search stuff -->
     <script async src="https://cse.google.com/cse.js?cx=98d9bba52d1334b96"></script>
     <script src="https://unpkg.com/mustache@4.1.0"></script>
-    <script src="/assets/js/result_bootstrap_mustache.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/result_bootstrap_mustache.js"></script>
     <script>
-        gcs_results_template = "/assets/html/bootstrap_results.html";
+        gcs_results_template = "{{ site.baseurl }}/assets/html/bootstrap_results.html";
         window.__gcse || (window.__gcse = {});
         window.__gcse.searchCallbacks = {
             web: {
@@ -43,17 +43,17 @@
         };
     </script>
 
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
 
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/feeds/rss/">
-    <link rel="alternate" type="application/atom+xml" title="Atom" href="/blog/feeds/atom/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/blog/feeds/rss/">
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="{{ site.baseurl }}/blog/feeds/atom/">
 
-    <link rel="stylesheet" href="/assets/css/mezzanine.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mezzanine.css">
 
     <!-- <link href="/assets/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="/assets/css/prettyPhoto.css" rel="stylesheet">
-    <link href="/assets/css/animate.css" rel="stylesheet">
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/animate.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -64,52 +64,53 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="root">
-        {% include navbar.html %}
 
-        {% unless page.skip_banner %}
+    {% include navbar.html %}
+    {% if page.skip_banner %}
+        {{ content }}
+    {% else %}
         {% include banner.html %}
-        {% endunless %}
-        
         <!--footer-->
         <div class="container">
             {{ content }}
         </div>
+    {% endif %}
+    
 
-        <section id="bottom" class="wet-asphalt">
-            <div class="container">
-                    <div class="col-md-2 col-sm-4">
-                        <a href="/">
-                            <h4>Home</h4>
-                        </a>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-2 col-sm-4">
-                        <a href="/about/">
-                            <h4>About</h4>
-                        </a>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-2 col-sm-4">
-                        <a href="/blog/">
-                            <h4>Blog</h4>
-                        </a>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-2 col-sm-4">
-                        <a href="/users/">
-                            <h4>Users</h4>
-                        </a>
-                    </div>
-                    <!--/.col-md-3-->
-                    <div class="col-md-2 col-sm-4">
-                        <a href="/contact/">
-                            <h4>Contact</h4>
-                        </a>
-                    </div>
-                <!--/.col-md-3-->
+    <section id="bottom" class="wet-asphalt">
+        <div class="container">
+            <div class="col-md-2 col-sm-4">
+                <a href="{{ site.baseurl }}/">
+                    <h4>Home</h4>
+                </a>
             </div>
-        </section>
+            <!--/.col-md-3-->
+            <div class="col-md-2 col-sm-4">
+                <a href="{{ site.baseurl }}/about/">
+                    <h4>About</h4>
+                </a>
+            </div>
+            <!--/.col-md-3-->
+            <div class="col-md-2 col-sm-4">
+                <a href="{{ site.baseurl }}/blog/">
+                    <h4>Blog</h4>
+                </a>
+            </div>
+            <!--/.col-md-3-->
+            <div class="col-md-2 col-sm-4">
+                <a href="{{ site.baseurl }}/users/">
+                    <h4>Users</h4>
+                </a>
+            </div>
+            <!--/.col-md-3-->
+            <div class="col-md-2 col-sm-4">
+                <a href="{{ site.baseurl }}/contact/">
+                    <h4>Contact</h4>
+                </a>
+            </div>
+            <!--/.col-md-3-->
+        </div>
+    </section>
     <footer id="footer" class="midnight-blue">
         <div class="container">
 
@@ -130,14 +131,14 @@
             </div>
         </div>
     </footer>
-    <!-- <script src="/assets/js/jquery.prettyPhoto.js"></script>
-    <script src="/assets/js/jquery.isotope.min.js"></script>
-    <script src="/assets/js/main.js"></script> -->
-    
+    <script src="{{ site.baseurl }}/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.isotope.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
 <!-- scripts for bootstrap in lieu of other js scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

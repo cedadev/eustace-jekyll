@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 body {
-  padding-top: 80px;
+  padding-top: 103px;
   color: #34495e;
   background: #f5f5f5;
   font-family: 'Roboto', sans-serif;
@@ -775,7 +775,7 @@ ul.tag-cloud li {
 #social-media .icon-twitter:hover {
   background-color: #5ad2f8;
 }
-{{ page.richtextpage.content|richtext_filters|safe }}
+/* {{ page.richtextpage.content|richtext_filters|safe }} */
 
 footer {
    

@@ -21,35 +21,35 @@ title: User consultation 2017
 <p>Individual presentations on EUSTACE and related users can be found below:</p>
 <p><strong>Monday November 27 Session 1</strong>: EUSTACE overview</p>
 <ul>
-<li>Nick Rayner: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/1_eustace_overview.pdf">The EUSTACE project - delivering global daily information on air temperature</a></strong></em></li>
-<li>Elizabeth Good: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/2_20171127_satstace_ejg.pdf">Estimating surface air temperature from satellite data for the EUSTACE global temperature analysis</a></strong></em></li>
-<li>Karen Veal: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/3_20171127_validation_eustace_gtworkshop_lisbon_klveal.pdf">Assessment of EUSTACE surface air temperatures and accompanying uncertainties</a></strong></em></li>
-<li>Nick Rayner: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/4_eustace_analysis.pdf">Creating a globally complete analysis</a></strong></em></li>
-<li>Chris Merchant: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/5_merchant-uncertainty-review.pdf">Quantifying and using uncertainty: review and highlights</a></strong></em></li>
-<li>Alison Waterfall: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/6_eustace__awaterfall_user_guides.pdf">Data access and user guides</a></strong></em></li>
-<li><em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/qanda_session_1.pdf">Questions and answers</a></strong></em></li>
+<li>Nick Rayner: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/1_eustace_overview.pdf">The EUSTACE project - delivering global daily information on air temperature</a></strong></em></li>
+<li>Elizabeth Good: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/2_20171127_satstace_ejg.pdf">Estimating surface air temperature from satellite data for the EUSTACE global temperature analysis</a></strong></em></li>
+<li>Karen Veal: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/3_20171127_validation_eustace_gtworkshop_lisbon_klveal.pdf">Assessment of EUSTACE surface air temperatures and accompanying uncertainties</a></strong></em></li>
+<li>Nick Rayner: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/4_eustace_analysis.pdf">Creating a globally complete analysis</a></strong></em></li>
+<li>Chris Merchant: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/5_merchant-uncertainty-review.pdf">Quantifying and using uncertainty: review and highlights</a></strong></em></li>
+<li>Alison Waterfall: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/6_eustace__awaterfall_user_guides.pdf">Data access and user guides</a></strong></em></li>
+<li><em><strong><a href="{{ site.baseurl }}/assets/media/uploads/qanda_session_1.pdf">Questions and answers</a></strong></em></li>
 </ul>
 <div><strong>Tuesday November 28, Session 3</strong>: Case studies on extreme events</div>
 <div>
 <ul>
-<li>Sjoukje Philip: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/sjoukje_event_attr_summer2017_lisbon.pdf">The extreme summer heat wave of 2017 in Southern Europe</a></strong></em></li>
-<li>Richard Cornes (remote):<em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/eustace_nov2017.pdf"> The ECA&amp;D and E-OBS datasets for Europe: a focus on uncertainty</a></strong></em></li>
-<li><em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/qanda_session_3.pdf">Questions and answers</a></strong></em></li>
+<li>Sjoukje Philip: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/sjoukje_event_attr_summer2017_lisbon.pdf">The extreme summer heat wave of 2017 in Southern Europe</a></strong></em></li>
+<li>Richard Cornes (remote):<em><strong><a href="{{ site.baseurl }}/assets/media/uploads/eustace_nov2017.pdf"> The ECA&amp;D and E-OBS datasets for Europe: a focus on uncertainty</a></strong></em></li>
+<li><em><strong><a href="{{ site.baseurl }}/assets/media/uploads/qanda_session_3.pdf">Questions and answers</a></strong></em></li>
 </ul>
 <strong>Tuesday November 28, Session 4</strong>: EarthTemp session on relationships (sea, land, ice, lake, air) at margins</div>
 <ul>
-<li>Jacob Hoeyer: <a href="https://www.eustaceproject.eu/eustace/static/media/uploads/arctic_t2m_from_sat_eustace_globtemp_2017.pdf"><em><strong>Deri</strong><strong><em>v</em>ing Arctic near surface air temperatures from satellites</strong></em></a></li>
-<li>Chris Merchant: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/woolway_globtemp.pdf">Thermal observations of inland waters</a></strong></em></li>
-<li><em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/qanda_session_4.pdf">Questions and answers</a></strong></em></li>
+<li>Jacob Hoeyer: <a href="{{ site.baseurl }}/assets/media/uploads/arctic_t2m_from_sat_eustace_globtemp_2017.pdf"><em><strong>Deri</strong><strong><em>v</em>ing Arctic near surface air temperatures from satellites</strong></em></a></li>
+<li>Chris Merchant: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/woolway_globtemp.pdf">Thermal observations of inland waters</a></strong></em></li>
+<li><em><strong><a href="{{ site.baseurl }}/assets/media/uploads/qanda_session_4.pdf">Questions and answers</a></strong></em></li>
 </ul>
 <div><strong>Tuesday November 28, Breakout session 1</strong>: Continuity of climate quality air temperature records</div>
 <div>
 <ul>
-<li>Elizabeth Good: <em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/20171128_satellite_air_temps_ejg.pdf">A satellite air temperature record: why, how and what next?</a></strong></em></li>
-<li><em><strong><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/qanda_session_5.pdf">Questions and answers</a></strong></em></li>
+<li>Elizabeth Good: <em><strong><a href="{{ site.baseurl }}/assets/media/uploads/20171128_satellite_air_temps_ejg.pdf">A satellite air temperature record: why, how and what next?</a></strong></em></li>
+<li><em><strong><a href="{{ site.baseurl }}/assets/media/uploads/qanda_session_5.pdf">Questions and answers</a></strong></em></li>
 </ul>
 </div>
-<div><em><strong>Re<a href="https://www.eustaceproject.eu/eustace/static/media/uploads/results_and_conclusions_workshop_lisbon.pdf">sults and conclusion</a></strong></em><em><a href="https://www.eustaceproject.eu/eustace/static/media/uploads/results_and_conclusions_workshop_lisbon.pdf"><strong>s</strong></a></em></div>
+<div><em><strong>Re<a href="{{ site.baseurl }}/assets/media/uploads/results_and_conclusions_workshop_lisbon.pdf">sults and conclusion</a></strong></em><em><a href="{{ site.baseurl }}/assets/media/uploads/results_and_conclusions_workshop_lisbon.pdf"><strong>s</strong></a></em></div>
 <div></div>
 <div></div>
 <h1><b>April 24, 2017 8:30-12:00, Vienna</b></h1>

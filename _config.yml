@@ -1,6 +1,7 @@
 title: EUSTACE Project Website
 description: EUSTACE (EU Surface Temperature for All Corners of Earth) gives publicly available daily estimates of surface air temperature since 1850 across the globe for the first time by combining surface and satellite data using novel statistical techniques.
 show_excerpts: true
+baseurl: /eustace-jekyll
 
 defaults:
 - scope:
