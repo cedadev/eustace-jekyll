@@ -1,4 +1,18 @@
-<ul class="breadcrumb pull-right">
+<!-- <ul class="breadcrumb pull-right">
     <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
     <li id="breadcrumb-menu-acronyms">{{ page.title | default: site.title }}</li>
+</ul> -->
+{% assign crumbs = page.permalink | split: '/' %}
+{% assign cum_crumb = "/" %}
+<ul class="breadcrumb pull-right">
+    <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
+    {% for crumb in crumbs offset: 1 %}
+        {% assign cum_crumb = cum_crumb | append: crumb | append: '/' %}
+        {% for p in site.pages %}
+            {% if p.permalink == cum_crumb %}
+                {% assign crumb_title = p.title %}
+            {% endif %}
+        {% endfor %}
+        <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}/{{ cum_crumb }}">{{ crumb_title }}</a></li>
+    {% endfor %}
 </ul>
