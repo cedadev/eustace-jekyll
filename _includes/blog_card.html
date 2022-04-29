@@ -1,0 +1,19 @@
+<div class="blog-item">
+    <div class="blog-content">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        <div class="entry-meta">
+            <span><i class="icon-user"></i><a href="/blog/author/janette/"> {{ post.author }}</a></span>
+            <span><i class="icon-folder-close"></i></span>
+            <span><i class="icon-calendar"></i> {{ post.date | date: '%Y-%m-%d' }}</span>
+            <span><i class="icon-comment"></i> 	
+                <a href="/blog/the-numbers-tell-the-tale/#comments">
+                    0 comments
+                </a>                      
+            </span>
+        </div>
+
+        <p><span size="3">{{ post.description }}</span></p>
+        <a href="{{ post.url | relative_url }}" class="btn btn-default"> read more <i class="icon-angle-right"></i></a>
+
+    </div>
+</div>

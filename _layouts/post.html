@@ -11,23 +11,37 @@ layout: base_eustace
 
 <body>
 
-{% include breadcrumb.html %}
-{% assign author = site.data.authors | where: "name", page.author | first %}
-
-<div class="jumbotron">
-    <h1 class="display-4">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <p class="lead"><a href="{{ 'authors' | relative_url }}#{{ author.name }}"><img class="bio-thumbnail thumbnail-circular align-middle" style="height: 1.5em; width: 1.5em" src="{{ author.image }}"> {{ page.author }}</a> | {{ page.date | date: "%b %-d, %Y"}}</p>
-</div>
-
-<main id="content" class="main-content" role="main">
-    {{ content }}
-    <footer class="site-footer">
-        {% if site.github.is_project_page %}
-        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a
-                href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-    </footer>
-</main>
+    <section id="blog" class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="blog">
+                    <div class="blog-item">
+                        <div class="blog-content">
+                            
+                            <div class="entry-meta">
+                                <span><i class="icon-user"></i><a href="/blog/author/janette/"> {{ page.author }}</a></span>
+                                <span><i class="icon-folder-close"></i></span>
+                                <span><i class="icon-calendar"></i> {{ page.date | date: '%Y-%m-%d' }}</span>
+                                <span><i class="icon-comment"></i> 	
+                                    <a href="/blog/the-numbers-tell-the-tale/#comments">
+                                        0 comments
+                                    </a>                      
+                                </span>
+                            </div>
+                            
+                            {{ content }}
+                            <div id="comments">
+                                <h3>Comments</h3>
+                                <div class="comments-list">
+                                    <p>There are currently no comments</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 

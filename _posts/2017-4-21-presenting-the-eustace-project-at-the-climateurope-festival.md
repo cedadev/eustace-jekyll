@@ -1,4 +1,5 @@
 ---
+author: janette
 date: 2017-04-21 16:13:20
 description: "\n\n\n\n\nFrom April 5-7, 2017 the Climateurope festival was organized\
   \ in Valencia, Spain.\_Climateurope aims at, among others, to coordinate and integrate\
@@ -14,7 +15,7 @@ description: "\n\n\n\n\nFrom April 5-7, 2017 the Climateurope festival was organ
   \ is relatively limited for Spain, and EUSTACE could be an alternative source for\
   \ temperature data for them."
 layout: post
-permalink: /presenting-the-eustace-project-at-the-climateurope-festival/
+permalink: /blog/presenting-the-eustace-project-at-the-climateurope-festival/
 title: Presenting the EUSTACE project at the Climateurope-festival
 ---
 

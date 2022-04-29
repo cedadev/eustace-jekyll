@@ -1,4 +1,5 @@
 ---
+author: janette
 date: 2017-06-30 10:57:57
 description: 'In climate research, scientists are confronted with a problem apparently
   trivial, but in reality incredibly complex: How to get historical weather observations
@@ -11,7 +12,7 @@ description: 'In climate research, scientists are confronted with a problem appa
   scenario, collecting them this way can turn out to be an extremely time-consuming
   effort.'
 layout: post
-permalink: /the-price-of-data/
+permalink: /blog/the-price-of-data/
 title: The price of data
 ---
 

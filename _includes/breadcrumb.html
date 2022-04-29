@@ -8,11 +8,13 @@
     <li id="breadcrumb-menu-home"><a href="{{ '/' | relative_url }}">Home</a></li>
     {% for crumb in crumbs offset: 1 %}
         {% assign cum_crumb = cum_crumb | append: crumb | append: '/' %}
-        {% for p in site.pages %}
+        {% assign pages_posts = site.pages | concat: site.posts %}
+        {% for p in pages_posts %}
+            <!-- {{ cum_crumb }} -->
             {% if p.permalink == cum_crumb %}
                 {% assign crumb_title = p.title %}
             {% endif %}
         {% endfor %}
-        <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}/{{ cum_crumb }}">{{ crumb_title }}</a></li>
+        <li id="breadcrumb-menu-{{ crumb }}"><a href="{{ site.baseurl }}{{ cum_crumb }}">{{ crumb_title }}</a></li>
     {% endfor %}
 </ul>

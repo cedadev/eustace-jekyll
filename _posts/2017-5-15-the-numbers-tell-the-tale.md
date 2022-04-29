@@ -1,4 +1,5 @@
 ---
+author: janette
 date: 2017-05-15 13:36:57
 description: "\u201CI have no data yet. It is a capital mistake to theorize before\
   \ one has data. Insensibly one begins to twist facts to suit theories, instead of\
@@ -13,7 +14,7 @@ description: "\u201CI have no data yet. It is a capital mistake to theorize befo
   \ data \u2013 especially when it is not data from the most recent period \u2013\
   \ requires skills which would suit a detective!"
 layout: post
-permalink: /the-numbers-tell-the-tale/
+permalink: /blog/the-numbers-tell-the-tale/
 title: The numbers tell the tale
 ---
 
