@@ -21,7 +21,7 @@ title: WP2 Dataset construction
 <h2><strong>Description:</strong></h2>
 <p>EUSTACE utilized a wealth of surface and air temperature measurements from both satellite and <em>in situ</em> measurement platforms for all surfaces - land, lakes, ocean, sea ice, and ice sheets. By the end of the project, these individual strands were combined in a consistent way to build a globally complete near-surface temperature record over 166 years with uncertainty information. WP2 took recommendations for producing air temperature estimates over different surfaces from WP1 and combined these using a state-of-the-art statistical system to create a globally-complete daily analysis. The data processing challenges were met using big-data techniques and novel statistical methods. The inputs, processing and infilling were combined in a single system designed to be sustainable and to provide products tailored to well defined user needs obtained from WP4.</p>
 <h2><strong>Deliverables:</strong></h2>
-<p>(links to the publicly available reports can be found under <strong><a href="https://www.eustaceproject.eu/final-results/">EUSTACE final results</a></strong>)</p>
+<p>(links to the publicly available reports can be found under <strong><a href="{{ site.baseurl }}/final-results/">EUSTACE final results</a></strong>)</p>
 <ul>
 <li>Final implementation of "ambitious" infilling method (<strong>March 2019</strong>)</li>
 <li>Final implementation of "advanced standard" infulling method (<strong>March 2019</strong>)</li>

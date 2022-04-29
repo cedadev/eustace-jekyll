@@ -31,7 +31,7 @@ title: WP3 Validation and Intercomparison
 <li>Input of blended data from WP2, and subsequent feedback from evaluation of these data to WP2 as part of an iterative “evaluation loop”</li>
 </ul>
 <h2><strong>Deliverables:</strong></h2>
-<p>(links to the publicly available reports can be found under <strong><a href="https://www.eustaceproject.eu/final-results/">EUSTACE final results</a></strong>)</p>
+<p>(links to the publicly available reports can be found under <strong><a href="{{ site.baseurl }}/final-results/">EUSTACE final results</a></strong>)</p>
 <ul>
 <li>Validation report for surface temperature uncertainties (<strong>March 2016</strong>)             </li>
 <li>Intercomparison report for the intermediate fields inferred from retrievals (<strong>April 2018</strong>)</li>

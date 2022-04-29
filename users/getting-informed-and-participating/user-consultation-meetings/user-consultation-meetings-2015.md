@@ -18,4 +18,4 @@ title: User consultation meetings 2015
 <h2><strong>Virtual meetings, May 18 and 19, 2015</strong></h2>
 <p>Two virtual meetings were organized to reach a wider group of potentially interested people, compared to the people present at the EGU-conference. The presentation given can be found <a href="{{ site.baseurl }}/assets/media/uploads/eustacevirtualuserconsultations.pdf"><em><strong>here</strong></em>.</a></p>
 <p></p>
-<p>Results from these meetings were included in report 16 (see <em><a href="https://www.eustaceproject.eu/final-results/"><strong>EUSTACE final results</strong></a></em>) on design requirements.</p>
+<p>Results from these meetings were included in report 16 (see <em><a href="{{ site.baseurl }}/final-results/"><strong>EUSTACE final results</strong></a></em>) on design requirements.</p>

@@ -10,7 +10,7 @@ title: User consultation 2017
 ---
 
 <p>In 2017 user consultation meetings were organized to inform potential users about EUSTACE progress, to show preliminary products and to collect feedback on the format and usability of the preliminary products.</p>
-<p>During the first two rounds of user consultation in 2015 and 2016 useful feedback was collected for the design of the data products and the user guides. The results of the most recent feedback round are described in report 17 under <a href="https://www.eustaceproject.eu/final-results/"><em><strong>EUSTACE final results</strong></em></a>.</p>
+<p>During the first two rounds of user consultation in 2015 and 2016 useful feedback was collected for the design of the data products and the user guides. The results of the most recent feedback round are described in report 17 under <a href="{{ site.baseurl }}/final-results/"><em><strong>EUSTACE final results</strong></em></a>.</p>
 <p><strong><br></strong></p>
 <h1><strong>November 27-29, 2017, Joint EUSTACE-GlobTemperature user consultation meeting</strong></h1>
 <p><strong>Location</strong>: Lisbon, Portugal, hosted by the Instituto Portugues do Mar e Atmosfera (IPMA)</p>

@@ -7,4 +7,4 @@ permalink: /contact/
 title: Contact
 ---
 
-<p>Please use the <strong><a href="/contact/form/" title="Contact Form">contact form</a></strong> to get in touch.</p>
+<p>Please use the <strong><a href="{{ site.baseurl }}/contact/form/" title="Contact Form">contact form</a></strong> to get in touch.</p>

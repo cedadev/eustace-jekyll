@@ -29,4 +29,4 @@ title: EUSTACE Products
 <li>Being validated (air temperatures and uncertainties) by comparison to independent data;</li>
 <li>Being documented in a Product User Guide</li>
 </ul>
-<p>The first EUSTACE products (skin temperature data for land, ocean and ice with consistent uncertainty estimates) became available in 2016. Links to where these products can be found will be provided under <em><strong><a href="https://www.eustaceproject.eu/final-results/">EUSTACE final results</a></strong></em>. <em><a href="/contact/form/"><strong>Contact us</strong></a> </em>in case of questions. </p>
+<p>The first EUSTACE products (skin temperature data for land, ocean and ice with consistent uncertainty estimates) became available in 2016. Links to where these products can be found will be provided under <em><strong><a href="{{ site.baseurl }}/final-results/">EUSTACE final results</a></strong></em>. <em><a href="{{ site.baseurl }}/contact/form/"><strong>Contact us</strong></a> </em>in case of questions. </p>

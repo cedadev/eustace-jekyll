@@ -39,7 +39,7 @@ title: WP4 Outreach and Dissemination
 <p>Delivery of the final data sets into a long-term archive where they are discoverable and accessible via the pre-existing data and catalogue services managed by STFC CEDA. The finalised product design and quality control software developed in WP2 informs this work to ensure that data and metadata are correctly structured and formatted. Publication of data sets using Digital Object Identifiers (DOIs) is undertaken on version 1 of the completed products and provision is made for handling changes that trigger new versions.</p>
 <p>Dissemination of EUSTACE results through attendance at conferences.  This took place throughout the project, and acted to promote the project more widely, as well as informing those already aware of it on the progress. This aided collaboration with other projects and assisted in successful and widespread exploitation of the results.</p>
 <h2><strong>Deliverables:</strong></h2>
-<p><strong></strong>(links to the publicly available reports can be found under <strong><a href="https://www.eustaceproject.eu/final-results/">EUSTACE final results</a></strong><span>)</span></p>
+<p><strong></strong>(links to the publicly available reports can be found under <strong><a href="{{ site.baseurl }}/final-results/">EUSTACE final results</a></strong><span>)</span></p>
 <ul>
 <li>Dissemination plan (<strong>2015, 2019</strong>)</li>
 <li>Data management plan (<strong>2015</strong>)</li>
