@@ -22,14 +22,14 @@ title: High resolution climate modelling
 <h3><strong>Introduction and background</strong></h3>
 <p>Climate models are always run for a historical period and (often) also for the future to get an idea of the climate change that we can expect. The quality of the projections for the future can only be determined indirectly, since we, of course, have no observations for the future. For the past we do have observations, therefore the climate model runs for the past are compared with the historical observations. The Global daily air temperature based on station and satellite data, 1850 on can also be used user for the historical temperature observations.</p>
 <p></p>
-<p><img height="267" src="https://www.eustaceproject.org/eustace/static/media/uploads/climate_model_grid.jpg" width="576"></p>
+<p><img height="267" src="{{ site.baseurl }}/assets/media/uploads/climate_model_grid.jpg" width="576"></p>
 <p><b>Figure 1</b> Schematic presentation of a climate model: the earth is subdivided in many grids in horizontal and vertical direction: the climate model simulates the climate for each grid.</p>
 <p>Climate models calculate the average of the climate variables over a grid (Figure 1). Grid size varies between climate models (Figure 2). In global climate models the spatial resolution is relatively coarse, although now also high resolution global simulations are under development with grid sizes of about 25 km (e.g. in the <em><strong><a href="https://www.primavera-h2020.eu/">PRIMAVERA project</a></strong></em>). Observational station data cannot be compared directly with the climate model data, since the station data give point measurements and the climate model give area average data. This is especially a problem for precipitation data (since some rainfall is very local), but also for temperature in a spatially heterogeneous area this may cause difficulties.</p>
 <p></p>
-<p><b><img height="227" src="https://www.eustaceproject.org/eustace/static/media/uploads/spatial_resolution_climate_models.png" width="500"></b></p>
+<p><b><img height="227" src="{{ site.baseurl }}/assets/media/uploads/spatial_resolution_climate_models.png" width="500"></b></p>
 <p><b>Figure 2</b> Evolution of spatial resolution in Global Climate Models used for IPCC assessment reports (Source: <a href="http://www.wmo.int/pages/themes/climate/climate_models.php">www.wmo.int/pages/themes/climate/climate_models.php</a>).</p>
 <p></p>
-<p> <img height="396" src="https://www.eustaceproject.org/eustace/static/media/uploads/eobs_ecad_satellite_temperature.png" width="600"></p>
+<p> <img height="396" src="{{ site.baseurl }}/assets/media/uploads/eobs_ecad_satellite_temperature.png" width="600"></p>
 <p><b>Figure 3</b><b> </b>Differences in spatial resolution based on different data sources (E-OBS: based on interpolation of station data from ECA&amp;D taking into account height) (Source: E. Good)</p>
 <p> </p>
 <p>Station data are only available for a limited number of locations, whereas climate models simulate the climate for a large region or the whole globe. To overcome this, the following approaches can be followed:</p>
@@ -40,7 +40,7 @@ title: High resolution climate modelling
 </ul>
 <p>In climate models every grid is assigned a certain “surface”: land, sea, ice, etc. To assign a grid to a certain surface a “mask” is used (Figure 4). Although the grid size has decreased considerably in the past, it is still not exactly the same as in reality. In reality grids may contain two or more types of surfaces (e.g. land and ocean). The satellite observations used in EUSTACE are based on reality and in the project different methods are used to estimate the air temperature from the skin temperature above different surfaces. For a grid that contains in reality more than 1 type of surface, estimates of the air temperature for the various surfaces within that grid are made within EUSTACE. This is possible since the spatial resolution of the used satellite data is clearly higher than the final spatial resolution in the EUSTACE-data set (about 0.25˚).</p>
 <p></p>
-<p><b><img height="136" src="https://www.eustaceproject.org/eustace/static/media/uploads/mask_climate_data.png" width="600"></b></p>
+<p><b><img height="136" src="{{ site.baseurl }}/assets/media/uploads/mask_climate_data.png" width="600"></b></p>
 <p><b>Figure 4</b> Left: hypothetical distribution of the “surfaces” ocean, land and ice over different grids. Right: a way to create a “mask” where only one surface is assigned to a grid cell (in this case land (green) is used in preference to ice (light blue) and ocean (blue), and ice is used in preference to ocean).</p>
 <p> </p>
 <h3><strong>How can the EUSTACE dataset be used in PRIMAVERA?</strong></h3>
